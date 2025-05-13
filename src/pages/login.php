@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $host = 'localhost';
 $db = 'projeto_poo';   // coloque aqui o nome real do seu banco
 $user = 'root';          // ajuste conforme sua configuração
-$pass = 'senac123';              // ajuste se tiver senha
+$pass = '';              // ajuste se tiver senha
 
 $conn = new mysqli($host, $user, $pass, $db);
 
